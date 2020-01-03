@@ -1,5 +1,5 @@
-# Project Name
-Project description
+# Dell Boomi automation
+This repository contains automation around Dell Boomi.  The initial script does API calls to start processes in a Dell Boomi environment.  Some work will be required to get it working (authentication tokens etc).
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
