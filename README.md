@@ -1,19 +1,28 @@
-# Dell Boomi automation
-This repository contains automation around Dell Boomi.  The initial script does API calls to start processes in a Dell Boomi environment.  Some work will be required to get it working (authentication tokens etc).
+# Dell Boomi API calls with Powershell
+This scripts contains functions that call the Dell Boomi API to run a process.  The initial script does API calls to start processes in a Dell Boomi environment.  Some work will be required to get it working (authentication tokens etc).
+
+# Prerequisites
+* Powershell v5.1
+* <a href url="https://help.boomi.com/bundle/integration/page/c-atm-Getting_started_with_API_b5110f51-d535-4bd2-978f-26152036870e.html">Dell Boomi API v1</a>
+
+# Instructions
+Before you can start using this script you will need to obtain your "accountId" and "atomId" from your Dell Boomi account.  Below is a list of script parameters and their usage:
+
+* <b>User</b> - Dell Boomi user
+* <b>Password</b> - Dell Boomi password
+* <b>AccountId</b> - Dell Boomi AccountId
+* <b>AtomId</b> - Dell Boomi AtomId
+* <b>ProcessName</b> - Process to start on Dell Boomi
+* <b>ProcessProperties</b> - Any additional properties to pass to the process when executing
+* <b>WaitTime</b> - How long between checks (in seconds) to poll for the status of the process completion
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
 
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
-# Prerequisites
-
-
-# Instructions
-
-
 # License
-Copyright 2019 SMA Technologies
+Copyright 2020 SMA Technologies
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
